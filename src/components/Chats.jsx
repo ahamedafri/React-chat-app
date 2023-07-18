@@ -1,12 +1,12 @@
 import React from 'react'
-import Avatar from "../img/addAvatar.png"
+
 
 
 function Chats() {
   return (
     <div className='chats'>
         <div className='userChat'>
-           <img src={Avatar} alt='' />
+           <img src='https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60' alt=''/>
            <div className='userChatInfo'>
                <span>Jane</span>
                <p>Hello</p>
@@ -14,7 +14,7 @@ function Chats() {
         </div>
 
         <div className='userChat'>
-           <img src={Avatar} alt='' />
+           <img src='https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60' alt=''/>
            <div className='userChatInfo'>
                <span>Jane</span>
                <p>Hello</p>
@@ -22,7 +22,7 @@ function Chats() {
         </div>
 
         <div className='userChat'>
-           <img src={Avatar} alt='' />
+           <img src='https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60' alt=''/>
            <div className='userChatInfo'>
                <span>Jane</span>
                <p>Hello</p>
